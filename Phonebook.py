@@ -31,6 +31,41 @@ print(".......................................................")
     print(phone_book)
     return phone_book
 
+def remove_existing(pb):
+       query = str( input("Please Enetrthe name of the contact you wish to remove:"))
+       temp = 0
+       for i in range(len(pb)):
+              if query == pb[i][0]:
+                     temp += 1
+                     print(pb.pop(i))
+                     print("This query has now been removed")
+                     return pb
+        if temp == 0
+                print("Sorry ,you have entered an invalid query. \nPlease recheck and try again later.")
+                return pb 
+def delete_all(pb):
+       return pb.clear()
+       
+def search_existing(pb):
+       choice = int(input("Enter search criteria\n\n\n 1. Name\n2. 2. Number\n3. 3. Email-Id\n4. DOB\n5. Category(Family/Friends/Work/Others)\ \nPlease enter:"))
+       temp = []
+       check = -1
+       if choice == 1:
+               query = str("Please enter the name of the contact you wish to search:))
+               for i in range(len(pb)):
+                      if query == pb[i][0]:
+                             check = i
+                             temp.append(pb[i])
+
+       elif choice == 2:
+              query = int(input("Please Enter the number of the con tact you wish to search"))
+              for i in range(len(pb)):
+                    if query ==pb[i][1]
+                             check = i
+                             temp.append(pb[i])
+
+                             
+        
 
         
         
