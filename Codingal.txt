@@ -1,2 +1,4 @@
- File in write mode ....Hi! I am Penguin. I am 1 yr. old 
- File in append mode ....Hi! I am Penguin. I am 1 yr. old
+Codingal is on a mission to inspire all school kids to fall in love with Codingal
+Coding helps develop logical thinking and pronlem solving skills
+Coding jobs are the future
+They already constitute more than 60% of all the jobs in Science, Technology, Math and Engineering
