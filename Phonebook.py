@@ -64,7 +64,10 @@ def search_existing(pb):
                              check = i
                              temp.append(pb[i])
 
-                             
+        elif choice == 3:
+              query = str
+
+
         
 
         
