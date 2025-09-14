@@ -44,4 +44,4 @@ def start_game():
     else:
         print("That's cool, have a nice day!")
 if __name__ == '__main__':
-   start_game()
+   start_game
